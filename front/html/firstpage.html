@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <link rel="stylesheet" href="C:/AinaArd/anime/front/css/styles.css" type="text/css"/>
+  <meta charset="utf-8">
+ </head>
+ <body> 
+ <div class="ribbon">
+	<div class="ribbon-stitches-top">
+	</div>
+ <strong class="ribbon-content"><h1>Anime portal</h1>
+ </strong>
+		<div class="ribbon-stitches-bottom">
+		</div>
+ </div>
+  <form>
+  <div class="containerForButtons">
+   <p>
+     <button onclick="show('block')" class = "button-enter">Enter</button>
+    </p>
+    <button class = "button-register" type= "submit">Register</button>
+    </div>   	
+  </form>
+  <div onclick="show('none')" id="gray"></div>
+  
+   <form id="window">
+	<div class="form-titleLogin"><h2>Sign in</h2></div>
+	<div class="form-titleLogin">Login</div>
+	<input class="form-fieldLogin" id= "login" type="text" name="login" /><br />
+	<div class="form-titleLogin">Password</div>
+	<input class="form-fieldLogin" id= "password" type="text" name="password" /><br />
+	<div class="submit-container">
+	<input class="submit-button" type="submit" value="Submit" />
+  </form>
+  
+  <script>
+//Функция показа
+	function show(state){
+	document.getElementById('window').style.display = state;	
+	document.getElementById('gray').style.display = state; 		
+	}	
+</script>
+  
+ </body>
+ </html>
