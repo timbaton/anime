@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-     <link rel="stylesheet" href="C:/AinaArd/anime/front/css/styles.css" type="text/css"/>
+     <link rel="stylesheet" href="C:\AinaArd\anime\front\css\styles.css" type="text/css"/>
   <meta charset="utf-8">
  </head>
  <body> 
@@ -15,7 +15,7 @@
  </div>
   <form>
   <div class="containerForButtons">
-   <p>
+  	 <p>
      <button onclick="show('block')" class = "button-enter">Enter</button>
     </p>
     <button class = "button-register" type= "submit">Register</button>
@@ -23,16 +23,19 @@
   </form>
   <div onclick="show('none')" id="gray"></div>
   
-   <form id="window">
+  <div id="window">
+   <form class="form-containerLogin" >
 	<div class="form-titleLogin"><h2>Sign in</h2></div>
+	 <img onclick="show('none')" src="C:/AinaArd/anime/front/css/close.png" class="closePic">
 	<div class="form-titleLogin">Login</div>
-	<input class="form-fieldLogin" id= "login" type="text" name="login" /><br />
+	<input class="form-fieldLogin" id= "login" type="text" name="login" /><br>
 	<div class="form-titleLogin">Password</div>
-	<input class="form-fieldLogin" id= "password" type="text" name="password" /><br />
+	<input class="form-fieldLogin" id= "password" type="text" name="password" /><br>
 	<div class="submit-container">
 	<input class="submit-button" type="submit" value="Submit" />
   </form>
-  
+</div>
+
   <script>
 //Функция показа
 	function show(state){
