@@ -5,22 +5,66 @@
   <meta charset="utf-8">
  </head>
  <body> 
- <div class="ribbon">
+ <!-- <div class="ribbon">
 	<div class="ribbon-stitches-top">
 	</div>
  <strong class="ribbon-content"><h1>Anime portal</h1>
  </strong>
 		<div class="ribbon-stitches-bottom">
 		</div>
- </div>
+ </div> -->
+
+<!-- <nav class="navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+</nav> -->
+
+<ul id="menu-bar">
+ <li class="active"><a href="#">Home</a></li>
+ <li><a href="#">Products</a>
+  <ul>
+   <li><a href="#">Products Sub Menu 1</a></li>
+   <li><a href="#">Products Sub Menu 2</a></li>
+   <li><a href="#">Products Sub Menu 3</a></li>
+   <li><a href="#">Products Sub Menu 4</a></li>
+  </ul>
+ </li>
+ <li><a href="#">Services</a>
+  <ul>
+   <li><a href="#">Services Sub Menu 1</a></li>
+   <li><a href="#">Services Sub Menu 2</a></li>
+   <li><a href="#">Services Sub Menu 3</a></li>
+   <li><a href="#">Services Sub Menu 4</a></li>
+  </ul>
+ </li>
+ <li><a href="#">About</a></li>
+ <li><a href="#">Contact Us</a></li>
+</ul>
+
   <form>
   <div class="containerForButtons">
   	 <p>
-     <button onclick="show('block')" class = "button-enter">Enter</button>
+  	 	<div class="button-enter-place">
+  	 <a class="button-enter" onclick="show('block')">Enter</a>
     </p>
-    <button class = "button-register" type= "submit">Register</button>
+</div>
+<div class="button-register-place">
+    	<a href="register.html" class="button-register">Register</a>
     </div>   	
   </form>
+
   <div onclick="show('none')" id="gray"></div>
   
   <div id="window">
@@ -32,7 +76,8 @@
 	<div class="form-titleLogin">Password</div>
 	<input class="form-fieldLogin" id= "password" type="text" name="password" /><br>
 	<div class="submit-container">
-	<input class="submit-button" type="submit" value="Submit" />
+	<a href="profile.html" class="submit-button">Enter</a>
+	</div>
   </form>
 </div>
 
