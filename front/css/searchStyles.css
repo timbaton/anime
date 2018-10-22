@@ -7,7 +7,7 @@ body {
 }
 
 .containerForCategories {
-    margin-top: 13%;
+    margin-top: 3%;
     float: right;
     margin-right: 8%;
     width: 20%;
@@ -34,7 +34,7 @@ body {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    color: #ffffff;
+    color: #000000;
     -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(000, 000, 000, 0.7) 0 0px 0px;
     -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(000, 000, 000, 0.7) 0 0px 0px;
     box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(000, 000, 000, 0.7) 0 0px 0px;
@@ -45,11 +45,11 @@ body {
 
 .form-field:focus {
     background: #fff;
-    color: #ffffff;
+    color: #000000;
 }
 
 .buttonSearch-place {
-    margin-top: 9%;
+    margin-top: -2%;
     margin-left: -20%;
 }
 
@@ -63,7 +63,7 @@ body {
     background: -ms-linear-gradient(top, #d665ba, #643e9c);
     background: -o-linear-gradient(top, #d665ba, #643e9c);
     background-image: -ms-linear-gradient(top, #d665ba 0%, #643e9c 100%);
-    padding: 20px 40px;
+    padding: 9px 10px;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
     border-radius: 18px;
@@ -132,19 +132,19 @@ body {
     }
 }
 
-#custom-search-input{
+#custom-search-input {
     padding: 3px;
     border: solid 1px #E4E4E4;
     border-radius: 6px;
     background-color: #fff;
 }
 
-#custom-search-input input{
+#custom-search-input input {
     border: 0;
     box-shadow: none;
 }
 
-#custom-search-input button{
+#custom-search-input button {
     margin: 2px 0 0 0;
     background: none;
     box-shadow: none;
@@ -154,13 +154,13 @@ body {
     border-left: solid 1px #ccc;
 }
 
-#custom-search-input button:hover{
+#custom-search-input button:hover {
     border: 0;
     box-shadow: none;
     border-left: solid 1px #ccc;
 }
 
-#custom-search-input .glyphicon-search{
+#custom-search-input .glyphicon-search {
     font-size: 23px;
 }
 
@@ -171,13 +171,20 @@ body {
 }
 
 .place {
-    float: left;
-    margin-top: 10%;
-    margin-left: 10%;
-    padding-left: 2%;
-    padding-bottom: 1%;
-    width: 60%;
+    width: 500px;
+    padding-left: 5%;
 }
+
 .width {
-    width: 60%;
+    width: 800px;
+}
+
+.place_for_first {
+    margin-top: 200px;
+    height: fit-content;
+    margin-bottom: -90px;
+}
+
+.container post {
+    width: 500px;
 }
