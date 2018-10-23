@@ -1,0 +1,38 @@
+body {
+    background: url("../sources/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.animeBlock {
+    border-radius: 10px;
+    background-color: #f2e3d2;
+    position: relative;
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+.animeDescription {
+    width: 800px;
+    position: relative;
+    float: right;
+    padding-left: 10px;
+}
+
+.animePic {
+    position: relative;
+    float: left;
+    padding-right: 10px;
+}
+
+.animeName {
+    margin-top: 20px;
+}
