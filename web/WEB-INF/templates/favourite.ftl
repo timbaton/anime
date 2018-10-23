@@ -17,8 +17,8 @@
         <li><a href="#">Menu</a>
             <ul>
                 <li><a href="profile.html">Profile</a></li>
-                <li><a href="edit.html">Edit</a></li>
-                <li><a href="favourite.html">Favourite</a></li>
+                <li><a href="edit.ftl">Edit</a></li>
+                <li><a href="favourite.ftl">Favourite</a></li>
                 <li><a href="later.html">Later</a></li>
                 <li><a href="categories.html">Categories</a></li>
                 <li><a href="search.html">Search</a></li>
