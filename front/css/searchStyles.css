@@ -1,0 +1,190 @@
+body {
+    background: url(../sources/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.containerForCategories {
+    margin-top: 3%;
+    float: right;
+    margin-right: 8%;
+    width: 20%;
+    height: 80%;
+    border: 4px inset black;
+    text-align: center;
+    padding: 2px 10px;
+    background: rgba(255, 255, 255, 0.75);
+    filter: alpha(Opacity=70);
+    border-radius: 30px;
+}
+
+.form-title {
+    margin-bottom: 10px;
+    color: #000000;
+    margin-top: 5%;
+    text-shadow: #fdf2e4 0 1px 0;
+    font-size: 18px;
+}
+
+.form-field {
+    border: 1px solid #c9b7a2;
+    background: #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #000000;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(000, 000, 000, 0.7) 0 0px 0px;
+    -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(000, 000, 000, 0.7) 0 0px 0px;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(000, 000, 000, 0.7) 0 0px 0px;
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.form-field:focus {
+    background: #fff;
+    color: #000000;
+}
+
+.buttonSearch-place {
+    margin-top: -2%;
+    margin-left: -20%;
+}
+
+.buttonSearch {
+    margin-left: 18%;
+    border: 4px solid #ffffff;
+    background: #643e9c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d665ba), to(#643e9c));
+    background: -webkit-linear-gradient(top, #d665ba, #643e9c);
+    background: -moz-linear-gradient(top, #d665ba, #643e9c);
+    background: -ms-linear-gradient(top, #d665ba, #643e9c);
+    background: -o-linear-gradient(top, #d665ba, #643e9c);
+    background-image: -ms-linear-gradient(top, #d665ba 0%, #643e9c 100%);
+    padding: 9px 10px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 0px 0;
+    -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 0px 0;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 0px 0;
+    text-shadow: #000000 0 1px 0;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+}
+
+.buttonSearch:hover {
+    border: 4px solid #141e69;
+    text-shadow: #000000 0 1px 0;
+    background: #0a32a3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#78e1eb), to(#0a32a3));
+    background: -webkit-linear-gradient(top, #78e1eb, #0a32a3);
+    background: -moz-linear-gradient(top, #78e1eb, #0a32a3);
+    background: -ms-linear-gradient(top, #78e1eb, #0a32a3);
+    background: -o-linear-gradient(top, #78e1eb, #0a32a3);
+    background-image: -ms-linear-gradient(top, #78e1eb 0%, #0a32a3 100%);
+    color: #000000;
+}
+
+.buttonSearch:active {
+    text-shadow: #000000 0 1px 0;
+    border: 4px solid #701a8f;
+    background: #9622cc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d357f2), to(#0a32a3));
+    background: -webkit-linear-gradient(top, #d357f2, #9622cc);
+    background: -moz-linear-gradient(top, #d357f2, #9622cc);
+    background: -ms-linear-gradient(top, #d357f2, #9622cc);
+    background: -o-linear-gradient(top, #d357f2, #9622cc);
+    background-image: -ms-linear-gradient(top, #d357f2 0%, #9622cc 100%);
+    color: #fff;
+}
+
+.topnav {
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.topnav input[type=text] {
+    float: left;
+    padding: 0.5%;
+    border: none;
+    margin-left: 1%;
+    font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+#custom-search-input {
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input {
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button {
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover {
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search {
+    font-size: 23px;
+}
+
+.position {
+    position: absolute;
+    top: 7%;
+    left: 26%;
+}
+
+.place {
+    width: 500px;
+    padding-left: 5%;
+}
+
+.width {
+    width: 800px;
+}
+
+.place_for_first {
+    margin-top: 200px;
+    height: fit-content;
+    margin-bottom: -90px;
+}
+
+.container post {
+    width: 500px;
+}
