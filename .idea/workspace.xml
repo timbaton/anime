@@ -7,62 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf2107ec-f30f-434b-a420-adee0ebc493d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/freemarker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_8_4_22_1_osx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/imp/SimpleUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/PseudoDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enteties/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlets/ProfileServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/ConfigSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/templates/hello.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Anime_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Anime_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anime.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Anime.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/css/categoriesStyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/css/example.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/css/navBarStyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/css/profileStyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/css/registerStyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/css/searchStyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/html/categories.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/html/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/html/example.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/html/favourite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/html/firstpage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/html/nav_bar.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/html/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/html/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/html/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/enterPic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/enterPic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/enterPic3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/firstPic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/item1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/item2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/item3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/item4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/nav_pic.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/sources/profilePic.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Anime/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anime/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/edit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/example.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/firstpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/nav_bar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/nav_bar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/profile.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/styles/example.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/front/styles/profileStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/front/styles/profileStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/firstpage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/firstpage.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anime/servlets/ProfileServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/ProfileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/ProfileServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/register.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,9 +41,9 @@
           <entry key="class" value="2" />
           <entry key="css" value="5" />
           <entry key="ftl" value="8" />
-          <entry key="html" value="11" />
+          <entry key="html" value="12" />
           <entry key="iml" value="2" />
-          <entry key="java" value="21" />
+          <entry key="java" value="25" />
           <entry key="jsp" value="1" />
           <entry key="xml" value="6" />
         </counts>
@@ -100,9 +53,9 @@
           <entry key="CLASS" value="2" />
           <entry key="CSS" value="5" />
           <entry key="FTL" value="8" />
-          <entry key="HTML" value="11" />
+          <entry key="HTML" value="12" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="25" />
           <entry key="JSP" value="1" />
           <entry key="XML" value="6" />
         </counts>
@@ -111,18 +64,18 @@
         <counts>
           <entry key="ftl" value="147" />
           <entry key="html" value="73" />
-          <entry key="java" value="275" />
+          <entry key="java" value="292" />
           <entry key="jsp" value="5" />
-          <entry key="xml" value="86" />
+          <entry key="xml" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="FTL" value="147" />
           <entry key="HTML" value="73" />
-          <entry key="JAVA" value="275" />
+          <entry key="JAVA" value="292" />
           <entry key="JSP" value="5" />
-          <entry key="XML" value="86" />
+          <entry key="XML" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -137,29 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlets/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/PseudoDataBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="408">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,49 +100,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl">
+        <entry file="file://$PROJECT_DIR$/src/servlets/RegisterServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+            <state relative-caret-position="135">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/profile.ftl">
+        <entry file="file://$PROJECT_DIR$/src/servlets/ProfileServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1233">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="195">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/front/styles/profileStyles.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/front/styles/navBarStyles.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -250,11 +154,12 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/templates/search.html" />
         <option value="$PROJECT_DIR$/src/templates/ConfigSingleton.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/templates/edit.ftl" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl" />
         <option value="$PROJECT_DIR$/src/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/servlets/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlets/ProfileServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl" />
+        <option value="$PROJECT_DIR$/src/servlets/ProfileServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlets/RegisterServlet.java" />
       </list>
     </option>
   </component>
@@ -557,12 +462,12 @@
       <workItem from="1540193116622" duration="804000" />
       <workItem from="1540196520488" duration="1163000" />
       <workItem from="1540207586199" duration="2258000" />
-      <workItem from="1540277927590" duration="2493000" />
+      <workItem from="1540277927590" duration="3088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9372000" />
+    <option name="totallyTimeSpent" value="9967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -663,25 +568,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/front/styles/profileStyles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/front/styles/navBarStyles.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/edit.ftl">
       <provider selected="true" editor-type-id="text-editor">
@@ -704,23 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/PseudoDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/ConfigSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -738,13 +613,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/db/PseudoDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="255">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -755,24 +644,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/ProfileServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="156">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/register.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/front/styles/profileStyles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/front/styles/navBarStyles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/ProfileServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

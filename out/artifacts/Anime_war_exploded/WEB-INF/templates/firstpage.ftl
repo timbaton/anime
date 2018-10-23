@@ -24,7 +24,7 @@
         </p>
     </div>
     <div class="button-register-place">
-        <a href="register.html" class="button-register">Register</a>
+        <a href="register" class="button-register">Register</a>
     </div>
 </form>
 
