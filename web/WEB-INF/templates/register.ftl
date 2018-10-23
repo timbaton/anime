@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="../../front/styles/registerStyles.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/registerStyles.css" type="text/css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
+    <meta charset="utf-8">
+
 <body>
 <!--<#include "nav_bar.jsp">-->
 <form>
     <div class="containerForProfile">
-        <img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">
-        <button class="buttonDone">Register</button>
+        <img src="../../web/front/src/profilePic.PNG" id="profilePic" class="profilePic">
+        <a href="firstpage.html" class="buttonDone">Register</a>
     </div>
 </form>
 
@@ -31,3 +35,4 @@
 
 
 </body>
+</html>

@@ -30,7 +30,7 @@
 
 
     <div class="animeBlock">
-        <div class="animePic"><img src="../sources/profilePic.PNG" height="80" width="90">
+        <div class="animePic"><img src="../../web/front/src/profilePic.PNG" height="80" width="90">
             <div class="animeName">Anime name</div>
         </div>
 
@@ -52,7 +52,7 @@
     </div>
 
     <div class="animeBlock">
-        <div class="animePic"><img src="../sources/profilePic.PNG" height="80" width="90">
+        <div class="animePic"><img src="../../web/front/src/profilePic.PNG" height="80" width="90">
             <div class="animeName">Anime name</div>
         </div>
 
@@ -74,7 +74,7 @@
     </div>
 
     <div class="animeBlock">
-        <div class="animePic"><img src="../sources/profilePic.PNG" height="80" width="90">
+        <div class="animePic"><img src="../../web/front/src/profilePic.PNG" height="80" width="90">
             <div class="animeName">Anime name</div>
         </div>
 
@@ -96,7 +96,7 @@
     </div>
 
     <div class="animeBlock">
-        <div class="animePic"><img src="../sources/profilePic.PNG" height="80" width="90">
+        <div class="animePic"><img src="../../web/front/src/profilePic.PNG" height="80" width="90">
             <div class="animeName">Anime name</div>
         </div>
 
