@@ -6,6 +6,10 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Anime" />
+          <element id="library" level="project" name="postgresql-8.4.22-1-osx" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="freemarker" />
         </element>
       </element>
     </root>

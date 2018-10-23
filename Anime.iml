@@ -20,5 +20,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="library" name="postgresql-8.4.22-1-osx" level="project" />
+    <orderEntry type="library" name="freemarker" level="project" />
   </component>
 </module>
