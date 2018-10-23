@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-     <link rel="stylesheet" href="../css/editStyles.css" type="text/css"/>
+     <link rel="stylesheet" href="../../front/styles/editStyles.css" type="text/css"/>
 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
 		   integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -11,7 +11,7 @@
   <meta charset="utf-8">
  <body> 
  	<!--<#include "nav_bar.jsp">-->
-    <link rel="stylesheet" href="../css/navBarStyles.css" type="text/css"/>
+    <link rel="stylesheet" href="../../front/styles/navBarStyles.css" type="text/css"/>
     <ul id="menu-bar">
         <li class="logo">AnimeIsLife</li>
         <li class="active"><a href="#">Home</a></li>
@@ -24,8 +24,8 @@
 
     <form>
 		<div class="containerForProfile">
-		<img src="../../web/front/src/profilePic.PNG" id="profilePic" class="profilePic">
-		<div class="editButton-place"><a href="profile.html" class="buttonEdit">Done</a></div>
+		<img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">
+		<div class="editButton-place"><a href="profile.ftl" class="buttonEdit">Done</a></div>
 		</div>  
   </form>
   

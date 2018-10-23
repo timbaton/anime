@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel="stylesheet" href="../css/profileStyles.css" type="text/css"/>
+    <link rel="stylesheet" href="../../front/styles/profileStyles.css" type="text/css"/>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -12,14 +12,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 <body>
-<link rel="stylesheet" href="../css/navBarStyles.css" type="text/css"/>
+<link rel="stylesheet" href="../../front/styles/navBarStyles.css" type="text/css"/>
 // тут ты делаешь инклуд навбара
 <!--<ul id="menu-bar">
     <li class="logo">AnimeIsLife</li>
     <li class="active"><a href="#">Home</a></li>
     <li><a href="#">Menu</a>
         <ul>
-            <li><a href="profile.html">Profile</a></li>
+            <li><a href="profile.ftl">Profile</a></li>
             <li><a href="edit.html">Edit</a></li>
             <li><a href="favourite.html">Favourite</a></li>
             <li><a href="later.html">Later</a></li>
@@ -43,7 +43,7 @@
 
 <form>
     <div class="containerForProfile">
-        <img src="../../web/front/src/profilePic.PNG" id="profilePic" class="profilePic">
+        <img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">
         <div class="editButton-place"><a href="edit.html" class="buttonEdit">Edit</a></div>
     </div>
 </form>
