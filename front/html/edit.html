@@ -24,7 +24,7 @@
 
     <form>
 		<div class="containerForProfile">
-		<img src="../sources/profilePic.PNG" id="profilePic" class="profilePic">
+		<img src="../../web/front/src/profilePic.PNG" id="profilePic" class="profilePic">
 		<div class="editButton-place"><a href="profile.html" class="buttonEdit">Done</a></div>
 		</div>  
   </form>
