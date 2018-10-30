@@ -8,18 +8,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
 
 <body>
 <!--<#include "nav_bar.jsp">-->
 <form>
     <div class="containerForProfile">
         <img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">
-        <a href="login" class="buttonDone">Register</a>
     </div>
 </form>
 
-<form class="form-container">
+<form class="form-container" method="post">
     <div class="form-title"><h2>Fill in</h2></div>
     <div class="form-title">Login</div>
     <input class="form-field" id="login" type="text" name="login" required="required"/><br/>
@@ -31,6 +30,8 @@
     <input class="form-field" id="age" type="text" name="age"/><br/>
     <div class="form-title">Country</div>
     <input class="form-field" id="country" type="text" name="country"/><br/>
+
+    <input type="submit" class="buttonDone"/>
 </form>
 
 

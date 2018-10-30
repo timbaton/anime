@@ -34,12 +34,14 @@
 
 <div id="window">
     <form class="form-containerLogin" method="post">
+
         <div class="form-titleLogin"><h2>Sign in</h2></div>
         <img onclick="show('none')" src="../../front/src/close.png" class="closePic">
         <div class="form-titleLogin">Login</div>
         <input class="form-fieldLogin" id="login" type="text" name="login" required="required"/><br>
         <div class="form-titleLogin">Password</div>
         <input class="form-fieldLogin" id="password" type="text" name="password" required="required"/><br>
+
         <div class="submit-container">
            <input type="submit">
         </div>
