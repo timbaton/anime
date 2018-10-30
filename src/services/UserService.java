@@ -39,4 +39,8 @@ public class UserService {
         HttpSession session = request.getSession();
         session.setAttribute("current_user", current_user);
     }
+
+    public void registerUser(String login, String password, String email, String age, String country) {
+        userDAO.addUser(new User(login, password, email, age, country));
+    }
 }

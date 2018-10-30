@@ -20,8 +20,6 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
     private static UserService userService = new UserService();
 
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-        HttpSession session = request.getSession();
-
         User user = userService.authenticate(request);
         if (user != null) {
             userService.authorize(user, request);

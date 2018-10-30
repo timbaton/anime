@@ -14,7 +14,7 @@
     </servlet>
     <servlet>
         <servlet-name>Register</servlet-name>
-        <servlet-class>servlets.RegisterServlet</servlet-class>
+        <servlet-class>servlets.RegistrationServlet</servlet-class>
     </servlet>
 
 

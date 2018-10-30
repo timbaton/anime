@@ -20,7 +20,10 @@ public class SimpleUserDAO implements UserDAO {
             rs.next();
             String password = rs.getString("password");
             String login = rs.getString("login");
-            return new User(login, password);
+            String email = rs.getString("email");
+            String age = rs.getString("age");
+            String country = rs.getString("country");
+            return new User(login, password, email, age, country);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -31,9 +34,14 @@ public class SimpleUserDAO implements UserDAO {
     public boolean addUser(User user) {
         boolean res = false;
         try {
-            Statement statement = connection.createStatement();
-            res = statement.execute("insert into \"user_table\"(name, password) values("+user.getLogin()
-                    +"','"+user.getPassword()+")");
+            PreparedStatement statement = connection.prepareStatement("INSERT INTO user_table  (login, password, email, age, country) VALUES (?, ?, ?, ?, ?)");
+            statement.setString(1, user.getLogin());
+            statement.setString(2, user.getPassword());
+            statement.setString(3, user.getEmail());
+            statement.setString(4, user.getAge());
+            statement.setString(5, user.getCountry());
+            statement.executeUpdate();
+            statement.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
