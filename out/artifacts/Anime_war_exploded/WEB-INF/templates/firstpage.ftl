@@ -23,10 +23,10 @@
     <div class="containerForButtons">
         <p>
         <div class="button-enter-place">
-        <a class="button-enter" onclick="show('block')">Enter</a></div>
-    <div class="button-register-place">
-        <a href="register" class="button-register">Register</a>
-    </div>
+            <a class="button-enter" onclick="show('block')">Enter</a></div>
+        <div class="button-register-place">
+            <a href="register" class="button-register">Register</a>
+        </div>
     </div>
 </form>
 
@@ -34,16 +34,17 @@
 
 <div id="window">
     <form class="form-containerLogin" method="post">
-
         <div class="form-titleLogin"><h2>Sign in</h2></div>
         <img onclick="show('none')" src="../../front/src/close.png" class="closePic">
         <div class="form-titleLogin">Login</div>
         <input class="form-fieldLogin" id="login" type="text" name="login" required="required"/><br>
         <div class="form-titleLogin">Password</div>
         <input class="form-fieldLogin" id="password" type="text" name="password" required="required"/><br>
-
+        <div class="check-box">
+            <input name="Remember" type="checkbox"><label class="form-titleLogin">Remember me</label>
+        </div>
         <div class="submit-container">
-           <input type="submit">
+            <input class="submit-button" type="submit">
         </div>
     </form>
 </div>

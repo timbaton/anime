@@ -239,7 +239,7 @@ div#window {
    vertical-align: middle;
    min-width:300px;
    padding:20px;
-   width:360px;
+   width:380px;
    }   
 
 .closePic {
@@ -476,4 +476,10 @@ div#window {
   height: 1%;
 }
 
+.check-box {
+    transform:scale(1.3);
+    opacity:0.9;
+    cursor:pointer;
+    margin-left: 45px;
+}
 

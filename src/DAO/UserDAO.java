@@ -5,5 +5,6 @@ import enteties.User;
 
 public interface UserDAO {
     User getByUsername(String username);
-    User getById(int id);
+
+    boolean addUser(User user);
 }
