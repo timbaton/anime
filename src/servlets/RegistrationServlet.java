@@ -37,9 +37,10 @@ public class RegistrationServlet extends HttpServlet {
             Matcher matcher = pattern.matcher(login);
             if (matcher.matches()) {
                 userService.registerUser(login, password, email, age, country);
-                response.sendRedirect("/login");
+                userService.authorize(new User(login, password, email, age, country), request);
+                response.sendRedirect("/profile");
             } else {
-                response.sendRedirect("/login");
+                response.sendRedirect("/registration");
             }
         }
     }
@@ -47,7 +48,7 @@ public class RegistrationServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         Configuration cfg = ConfigSingleton.getConfig(getServletContext());
-        Template tmpl = cfg.getTemplate("register.ftl");
+        Template tmpl = cfg.getTemplate("registration.ftl");
         HashMap<String, Object> root = new HashMap<>();
         try {
             tmpl.process(root, response.getWriter());

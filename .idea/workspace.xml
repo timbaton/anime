@@ -8,18 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbb01ba0-cd0d-4809-af4e-1c18a697cb73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/DAO/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/DAO/imp/SimpleUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/DAO/imp/SimpleUserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Anime/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anime/DAO/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Anime/DAO/imp/SimpleUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anime/DAO/imp/SimpleUserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Anime/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anime/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/imp/SimpleUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/imp/SimpleUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enteties/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enteties/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/RegistrationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlets/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/RegistrationServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,15 +71,15 @@
     <session id="1115713731">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.1" value="6" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,16 +90,16 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="21" />
           <entry key="iml" value="2" />
-          <entry key="java" value="76" />
+          <entry key="java" value="79" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="2" />
           <entry key="pg_write_server_files" value="1" />
           <entry key="postgres" value="3" />
-          <entry key="sql" value="21" />
+          <entry key="sql" value="23" />
           <entry key="test_table" value="1" />
           <entry key="timurbadretdinov" value="2" />
           <entry key="user" value="1" />
-          <entry key="user_table" value="4" />
+          <entry key="user_table" value="6" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
@@ -118,16 +107,16 @@
         <counts>
           <entry key="CLASS" value="5" />
           <entry key="CSS" value="30" />
-          <entry key="Database Element" value="6" />
+          <entry key="Database Element" value="8" />
           <entry key="FTL" value="22" />
           <entry key="HTML" value="21" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="76" />
+          <entry key="JAVA" value="79" />
           <entry key="JSP" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SQL" value="6" />
-          <entry key="Scratch" value="21" />
+          <entry key="Scratch" value="23" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
@@ -137,7 +126,7 @@
           <entry key="dummy" value="5" />
           <entry key="ftl" value="283" />
           <entry key="html" value="146" />
-          <entry key="java" value="1794" />
+          <entry key="java" value="1856" />
           <entry key="jsp" value="5" />
           <entry key="sql" value="713" />
           <entry key="txt" value="67" />
@@ -149,7 +138,7 @@
           <entry key="CSS" value="93" />
           <entry key="FTL" value="283" />
           <entry key="HTML" value="146" />
-          <entry key="JAVA" value="1794" />
+          <entry key="JAVA" value="1856" />
           <entry key="JSP" value="5" />
           <entry key="PLAIN_TEXT" value="72" />
           <entry key="Scratch" value="713" />
@@ -166,11 +155,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DAO/imp/SimpleUserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state relative-caret-position="315">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -178,17 +167,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/register.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="495">
               <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/servlets/RegistrationServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="323">
+              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://abb96eeb-1942-49f5-86c9-c5a4865e3e80/database/animedb/schema/public/table/user_table">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+              <column-attributes>
+                <column name="ctid" enabled="false" />
+              </column-attributes>
             </state>
           </provider>
         </entry>
@@ -260,9 +264,9 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/templates/register.ftl" />
         <option value="$PROJECT_DIR$/src/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/enteties/User.java" />
-        <option value="$PROJECT_DIR$/src/servlets/RegistrationServlet.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/abb96eeb-1942-49f5-86c9-c5a4865e3e80/console_3.sql" />
         <option value="$PROJECT_DIR$/src/DAO/imp/SimpleUserDAO.java" />
+        <option value="$PROJECT_DIR$/src/servlets/RegistrationServlet.java" />
       </list>
     </option>
   </component>
@@ -280,8 +284,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -289,111 +294,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Anime" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="Anime" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Anime" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="db" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Anime" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="enteties" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-              <item name="imp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Anime" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Anime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -598,12 +498,13 @@
       <workItem from="1540539457265" duration="268000" />
       <workItem from="1540884479453" duration="95000" />
       <workItem from="1540885026714" duration="3230000" />
-      <workItem from="1540897910612" duration="8354000" />
+      <workItem from="1540897910612" duration="9021000" />
+      <workItem from="1540981801077" duration="366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29501000" />
+    <option name="totallyTimeSpent" value="30534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,8 +527,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3554217" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.69759035" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40722892" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33373493" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40722892" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -637,12 +538,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.13519314" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.30615166" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
@@ -684,9 +585,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/front/src/item2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/front/styles/categoriesStyles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -800,19 +698,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/db/PseudoDataBase.java" />
-    <entry file="das://b830a133-fd4d-47bd-96ab-cdc8a1dd04dc/role/pg_write_server_files">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b830a133-fd4d-47bd-96ab-cdc8a1dd04dc/role/timurbadretdinov">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://b830a133-fd4d-47bd-96ab-cdc8a1dd04dc/role/postgres">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="das://b830a133-fd4d-47bd-96ab-cdc8a1dd04dc/role/pg_write_server_files" />
+    <entry file="das://b830a133-fd4d-47bd-96ab-cdc8a1dd04dc/role/timurbadretdinov" />
+    <entry file="das://b830a133-fd4d-47bd-96ab-cdc8a1dd04dc/role/postgres" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b830a133-fd4d-47bd-96ab-cdc8a1dd04dc/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -820,33 +708,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://94e5c198-da1c-4ad8-b80d-2826b58455c3/database/postgres/schema/public/table/test_table">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://94e5c198-da1c-4ad8-b80d-2826b58455c3/database/postgres/schema/public/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://94e5c198-da1c-4ad8-b80d-2826b58455c3/database/postgres/schema/public/table/user_table">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://94e5c198-da1c-4ad8-b80d-2826b58455c3/database/postgres/schema/public/table/test_table" />
+    <entry file="das://94e5c198-da1c-4ad8-b80d-2826b58455c3/database/postgres/schema/public/table/user" />
+    <entry file="das://94e5c198-da1c-4ad8-b80d-2826b58455c3/database/postgres/schema/public/table/user_table" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/94e5c198-da1c-4ad8-b80d-2826b58455c3/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -900,9 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,20 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/register.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DAO/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -952,13 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -979,13 +819,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://abb96eeb-1942-49f5-86c9-c5a4865e3e80/database/animedb/schema/public/table/user_table">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/abb96eeb-1942-49f5-86c9-c5a4865e3e80/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/abb96eeb-1942-49f5-86c9-c5a4865e3e80/console_5.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -996,24 +843,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/abb96eeb-1942-49f5-86c9-c5a4865e3e80/console_1.sql">
+    <entry file="file://$PROJECT_DIR$/src/DAO/imp/SimpleUserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="315">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/register.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://abb96eeb-1942-49f5-86c9-c5a4865e3e80/database/animedb/schema/public/table/user_table">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlets/RegistrationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/imp/SimpleUserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        <state relative-caret-position="323">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
