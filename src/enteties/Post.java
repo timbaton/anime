@@ -6,6 +6,11 @@ public class Post {
     int user_id;
     long date_create;
 
+    public Post(String text, int user_id) {
+        this.text = text;
+        this.user_id = user_id;
+    }
+
 
     public int getId() {
         return id;

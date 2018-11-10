@@ -32,7 +32,7 @@ public class UserDAOImp implements UserDAO {
     }
 
     @Override
-    public boolean addUser(String login, String password, String email, String age, String country) {
+    public User addUser(String login, String password, String email, String age, String country) {
         boolean res = false;
         try {
             PreparedStatement statement = connection.prepareStatement("INSERT INTO user_table  (login, password, email, age, country) VALUES (?, ?, ?, ?, ?)");
@@ -47,6 +47,6 @@ public class UserDAOImp implements UserDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return res;
+        return getByUsername(login);
     }
 }

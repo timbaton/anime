@@ -20,13 +20,13 @@ public class PostDAOImp implements PostDAO {
     }
 
     @Override
-    public boolean addPost(User user, Post post) {
+    public boolean addPost(Post post) {
         boolean res = false;
         Timestamp date = new Timestamp(System.currentTimeMillis());
         try {
             PreparedStatement statement = connection.prepareStatement("INSERT INTO post  (text, user_id, date_create) VALUES (?, ?, ?)");
             statement.setString(1, post.getText());
-            statement.setInt(2, user.getId());
+            statement.setInt(2, post.getUser_id());
             statement.setTimestamp(3, date);
 
             statement.executeUpdate();

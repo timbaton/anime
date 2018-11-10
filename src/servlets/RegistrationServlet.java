@@ -18,11 +18,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegistrationServlet extends HttpServlet {
+
     private UserService userService = new UserService();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
-
         User curUser = userService.getCurrentUser(request);
         String login = request.getParameter("login");
         String password = request.getParameter("password");
@@ -31,13 +30,13 @@ public class RegistrationServlet extends HttpServlet {
         String country = request.getParameter("country");
 
         if (curUser != null) {
-            response.sendRedirect("/profile"); //как он вообще сюда попал
+            response.sendRedirect("/profile");
         } else {
             Pattern pattern = Pattern.compile("^(?=.*[A-Za-z0-9]$)[A-Za-z][A-Za-z\\d.-]{0,19}$");
             Matcher matcher = pattern.matcher(login);
             if (matcher.matches()) {
-                userService.registerUser(login, password, email, age, country);
-                userService.authorize(new User(login, password, email, age, country), request);
+                curUser = userService.registerUser(login, password, email, age, country);
+                userService.authorize(curUser, request);
                 response.sendRedirect("/profile");
             } else {
                 response.sendRedirect("/registration");

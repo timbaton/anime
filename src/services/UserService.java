@@ -40,7 +40,7 @@ public class UserService {
         session.setAttribute("current_user", current_user);
     }
 
-    public void registerUser(String login, String password, String email, String age, String country) {
-        userDAO.addUser(login, password, email, age, country);
+    public User registerUser(String login, String password, String email, String age, String country) {
+        return userDAO.addUser(login, password, email, age, country);
     }
 }
