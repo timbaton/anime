@@ -7,7 +7,7 @@ import enteties.User;
 
 import java.sql.*;
 
-public class SimpleUserDAO implements UserDAO {
+public class UserDAOImp implements UserDAO {
 
     private Connection connection = SingletonConnection.getConnection();
 
@@ -23,7 +23,8 @@ public class SimpleUserDAO implements UserDAO {
             String email = rs.getString("email");
             String age = rs.getString("age");
             String country = rs.getString("country");
-            return new User(login, password, email, age, country);
+            int id = rs.getInt("id");
+            return new User(login, password, email, age, country, id);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -31,17 +32,18 @@ public class SimpleUserDAO implements UserDAO {
     }
 
     @Override
-    public boolean addUser(User user) {
+    public boolean addUser(String login, String password, String email, String age, String country) {
         boolean res = false;
         try {
             PreparedStatement statement = connection.prepareStatement("INSERT INTO user_table  (login, password, email, age, country) VALUES (?, ?, ?, ?, ?)");
-            statement.setString(1, user.getLogin());
-            statement.setString(2, user.getPassword());
-            statement.setString(3, user.getEmail());
-            statement.setString(4, user.getAge());
-            statement.setString(5, user.getCountry());
+            statement.setString(1, login);
+            statement.setString(2, password);
+            statement.setString(3, email);
+            statement.setString(4, age);
+            statement.setString(5, country);
             statement.executeUpdate();
             statement.close();
+            res = true;
         } catch (SQLException e) {
             e.printStackTrace();
         }

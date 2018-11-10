@@ -6,6 +6,16 @@ public class User {
     private String email;
     private String age;
     private String country;
+    private int id;
+
+    public User(String login, String password, String email, String age, String country, int id) {
+        this.login = login;
+        this.password = password;
+        this.email = email;
+        this.age = age;
+        this.country = country;
+        this.id = id;
+    }
 
     public User(String login, String password, String email, String age, String country) {
         this.login = login;
@@ -33,5 +43,9 @@ public class User {
 
     public String getLogin() {
         return login;
+    }
+
+    public int getId() {
+        return id;
     }
 }

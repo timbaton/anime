@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="animedb@localhost" uuid="abb96eeb-1942-49f5-86c9-c5a4865e3e80">
+    <data-source name="animedb@localhost" uuid="08eb9994-23c8-4cca-af6b-244fa53a7d0c">
       <database-info product="PostgreSQL" version="11.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" family="POSTGRES" exact-version="11.0">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
+      <user-name>timurbadretdinov</user-name>
       <introspection-schemas>@:@</introspection-schemas>
     </data-source>
   </component>

@@ -2,7 +2,7 @@ package services;
 
 
 import DAO.UserDAO;
-import DAO.imp.SimpleUserDAO;
+import DAO.imp.UserDAOImp;
 import enteties.User;
 
 import javax.servlet.http.HttpServletRequest;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpSession;
 
 public class UserService {
 
-    private UserDAO userDAO = new SimpleUserDAO();
+    private UserDAO userDAO = new UserDAOImp();
 
     public User getCurrentUser(HttpServletRequest request) {
         HttpSession session = request.getSession();
@@ -41,6 +41,6 @@ public class UserService {
     }
 
     public void registerUser(String login, String password, String email, String age, String country) {
-        userDAO.addUser(new User(login, password, email, age, country));
+        userDAO.addUser(login, password, email, age, country);
     }
 }
