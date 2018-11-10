@@ -10,6 +10,10 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="freemarker" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="tomcat-jdbc" />
+          <element id="library" level="project" name="postgresql-8.4.22-1-osx" />
+          <element id="library" level="project" name="tomcat-jdbc1" />
           <element id="library" level="project" name="postgresql-42.2.5" />
         </element>
       </element>

@@ -40,7 +40,7 @@
     <div class="form-title">Country</div>
     <h4 class="form-field" id="country" type="text" name="country">some country</h4><br/>
 </form>
-
+<a href="addNew.html" class="submit-button" style="margin-left:840px" >Add new post</a>
 <form>
     <div class="containerForProfile">
         <img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">
@@ -61,7 +61,7 @@
             unification of Upper and Lower Egypt under Menes (often identified with Narmer).[2] The history of
             ancient
             Egypt occurred as a series of stable kingdoms, separated by periods of relative instability known as
-            Intermediate Periods: the Old Kingdom of the Early Bronze Age, the Middle Kingdom of the Middle Bronze
+            Intermediate <Period></Period>s: the Old Kingdom of the Early Bronze Age, the Middle Kingdom of the Middle Bronze
             Age
             and the New Kingdom of the Late Bronze Age.
 
