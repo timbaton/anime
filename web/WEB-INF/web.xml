@@ -16,6 +16,10 @@
         <servlet-name>Register</servlet-name>
         <servlet-class>servlets.RegistrationServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NewPost</servlet-name>
+        <servlet-class>servlets.NewPostServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
@@ -28,6 +32,10 @@
     <servlet-mapping>
         <servlet-name>Profile</servlet-name>
         <url-pattern>/profile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewPost</servlet-name>
+        <url-pattern>/newpost</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>
