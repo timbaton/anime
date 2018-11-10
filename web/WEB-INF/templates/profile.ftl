@@ -40,7 +40,7 @@
     <div class="form-title">Country</div>
     <h4 class="form-field" id="country" type="text" name="country">some country</h4><br/>
 </form>
-<a href="/newpost" class="submit-button" style="margin-left:840px" >Add new post</a>
+<a href="/newpost" class="submit-button" style="margin-left:840px">Add new post</a>
 <form>
     <div class="containerForProfile">
         <img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">
@@ -49,32 +49,26 @@
 </form>
 
 <div class="container post">
+    <div class="row">
+<#if posts?has_content>
+    <#list posts as item>
     <div class="posts_place">
         <h1>Title</h1>
         by Henry153783
         6 h ago
-        <h5>Ancient Egypt was a civilization of ancient North Africa, concentrated along the lower reaches of the
-            Nile
-            River in the place that is now the country Egypt. Ancient Egyptian civilization followed prehistoric
-            Egypt
-            and coalesced around 3100 BC (according to conventional Egyptian chronology)[1] with the political
-            unification of Upper and Lower Egypt under Menes (often identified with Narmer).[2] The history of
-            ancient
-            Egypt occurred as a series of stable kingdoms, separated by periods of relative instability known as
-            Intermediate <Period></Period>s: the Old Kingdom of the Early Bronze Age, the Middle Kingdom of the Middle Bronze
-            Age
-            and the New Kingdom of the Late Bronze Age.
+        <h5>
+            ${item.getText()}
+        </h5>
 
-            Egypt reached the pinnacle of its power in the New Kingdom, ruling much of Nubia and a sizable portion
-            of
-            the Near East, after which it entered a ... </h5>
-        Ancient Rome, Ancient Egypt
         <div style="float: right">
             <span class="fa fa-thumbs-up"></span> 4
             <span class="fa fa-thumbs-down"></span> 0
             <span class="fa fa-comments"></span> 1
         </div>
 
+    </div>
+    </#list>
+</#if>
     </div>
 </div>
 

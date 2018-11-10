@@ -2,10 +2,11 @@ package DAO;
 
 
 import enteties.Post;
-import enteties.User;
+
+import java.util.ArrayList;
 
 public interface PostDAO {
-    User getAllUsersPost(String username);
+    ArrayList<Post> getAllUsersPost(String username);
 
     boolean addPost(Post post);
 }

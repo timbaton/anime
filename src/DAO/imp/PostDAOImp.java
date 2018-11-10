@@ -3,11 +3,10 @@ package DAO.imp;
 
 import DAO.PostDAO;
 import DAO.SingletonConnection;
-import DAO.UserDAO;
 import enteties.Post;
-import enteties.User;
 
 import java.sql.*;
+import java.util.ArrayList;
 
 public class PostDAOImp implements PostDAO {
 
@@ -15,8 +14,20 @@ public class PostDAOImp implements PostDAO {
 
 
     @Override
-    public User getAllUsersPost(String username) {
-        return null;
+    public ArrayList<Post> getAllUsersPost(String username) {
+        ArrayList<Post> newsList = new ArrayList<>();
+        try {
+            PreparedStatement st = connection.prepareStatement("select * from user_table as ut inner join post as po ON po.user_id = ut.id where ut.id = 7");
+
+            ResultSet rs = st.executeQuery();
+            while (rs.next()) {
+                newsList.add(new Post(rs.getString("text"), rs.getInt("user_id"), rs.getTimestamp("date_create")));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return newsList;
     }
 
     @Override
