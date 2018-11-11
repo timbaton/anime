@@ -13,33 +13,28 @@
 <#include "nav_bar.jsp">
 
 <link rel="stylesheet" href="../../front/styles/navBarStyles.css" type="text/css"/>
-<ul id="menu-bar">
-    <li class="logo">AnimeIsLife</li>
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Search</a></li>
-    <li><a href="#">Favourite</a></li>
-    <li><a href="#">Later</a></li>
-    <li><a href="#">Read</a></li>
-    <li><a href="#">Exit</a></li>
-</ul>
 
-<form>
+
+<form class="form-container" method="post">
     <div class="containerForProfile">
         <img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">
-        <div class="editButton-place"><a href="profile.ftl" class="buttonEdit">Done</a></div>
-        <div class="chooseFile"><input type="file"></div>
+        <input type="submit" class="buttonDone"/>
+        <img name="avatar" src="../../front/src/img_avatar.png" class="closePic" width="150" height="150">
+        <br>
+        <input style="margin-top: 20px; margin-left: 100px" id="file" type="file"
+               accept="image/jpeg, image/png, image/jpg" name="file"/>
+    </div>
+
+    <div>
+        <form class="form-container">
+            <div class="form-title">Email</div>
+            <input class="form-field" id="emailEdit" type="text" name="email" required="required"/><br/>
+            <div class="form-title">Age</div>
+            <input class="form-field" id="ageEdit" type="text" name="age"/><br/>
+            <div class="form-title">Country</div>
+            <input class="form-field" id="countryEdit" type="text" name="country"/><br/>
+        </form>
     </div>
 </form>
-
-<div>
-    <form class="form-container">
-        <div class="form-title">Email</div>
-        <input class="form-field" id="emailEdit" type="text" name="emailEdit" required="required"/><br/>
-        <div class="form-title">Age</div>
-        <input class="form-field" id="ageEdit" type="text" name="ageEdit"/><br/>
-        <div class="form-title">Country</div>
-        <input class="form-field" id="countryEdit" type="text" name="countryEdit"/><br/>
-    </form>
-</div>
 </body>
 </html>

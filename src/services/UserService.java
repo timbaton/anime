@@ -68,7 +68,7 @@ public class UserService {
 
     private void saveUserCookie(HttpServletResponse response, String username) {
         Cookie cookie = new Cookie("user", username);
-        cookie.setMaxAge(60);
+        cookie.setMaxAge(460);
         response.addCookie(cookie);
     }
 
@@ -113,5 +113,10 @@ public class UserService {
                 cookie.setMaxAge(0);
                 response.addCookie(cookie);
             }
+    }
+
+    public User editUser(User curUser, String email, String age, String country, String fileName) {
+        userDAO.editUser(curUser, email, age, country, fileName);
+        return null;
     }
 }

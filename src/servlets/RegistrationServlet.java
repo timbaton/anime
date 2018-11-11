@@ -11,20 +11,14 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.HashMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class RegistrationServlet extends HttpServlet {
 
     private UserService userService = new UserService();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        PrintWriter out = response.getWriter();
-
         User curUser = userService.getCurrentUser(request);
         String login = request.getParameter("login");
         String password = request.getParameter("password");
@@ -42,7 +36,6 @@ public class RegistrationServlet extends HttpServlet {
             } else {
                 response.sendRedirect("/registration");
             }
-
         }
     }
 

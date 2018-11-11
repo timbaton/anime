@@ -18,17 +18,16 @@
 
 <form class="form-container">
     <div class="form-title">Email</div>
-    <h4 class="form-field" id="email" type="text" name="email">some email</h4><br/>
+    <h4 class="form-field" id="email" type="text" name="email">${user.getEmail()}</h4><br/>
     <div class="form-title">Age</div>
-    <h4 class="form-field" id="age" type="text" name="age">18189 years</h4><br/>
+    <h4 class="form-field" id="age" type="text" name="age">${user.getAge()} years</h4><br/>
     <div class="form-title">Country</div>
-    <h4 class="form-field" id="country" type="text" name="country">some country</h4><br/>
+    <h4 class="form-field" id="country" type="text" name="country">${user.getCountry()}</h4><br/>
 </form>
 <a href="/newpost" class="submit-button" style="margin-left:840px">Add new post</a>
 <form>
     <div class="containerForProfile">
-        <img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">
-        <div class="editButton-place"><a href="edit.ftl" class="buttonEdit">Edit</a></div>
+        <img src="${user.getAvatar()}" class="img-fluid" alt="Responsive image">
     </div>
 </form>
 

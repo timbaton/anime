@@ -8,4 +8,6 @@ public interface UserDAO {
     User getById(int user_id);
 
     User addUser(String login, String password, String email, String age, String country);
+
+    void editUser(User curUser, String email, String age, String country, String fileName);
 }

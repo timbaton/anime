@@ -8,6 +8,9 @@ public class User {
     private String country;
     private int id;
 
+
+    private String avatar;
+
     public User(String login, String password, String email, String age, String country, int id) {
         this.login = login;
         this.password = password;
@@ -40,4 +43,11 @@ public class User {
     public int getId() {
         return id;
     }
+
+    public String getAvatar() {
+        if (avatar != null) {
+            return avatar;
+        } else return "../../../web/front/src/item1.jpg";
+    }
+
 }

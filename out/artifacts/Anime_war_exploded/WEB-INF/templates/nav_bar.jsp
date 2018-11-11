@@ -9,6 +9,7 @@
     <ul id="menu-bar">
         <li class="logo">AnimeIsLife</li>
         <li class="active"><a href="/profile">Profile</a></li>
+        <li><a href="/edit">Edit profile</a></li>
         <li><a href="search.html">Search</a></li>
         <li><a href="#">Favourite</a></li>
         <li><a href="#">Later</a></li>

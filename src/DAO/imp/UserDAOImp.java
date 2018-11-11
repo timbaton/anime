@@ -69,4 +69,26 @@ public class UserDAOImp implements UserDAO {
         }
         return getByUsername(login);
     }
+
+    @Override
+    public void editUser(User curUser, String email, String age, String country, String fileName) {
+        try {
+            PreparedStatement statement = connection.prepareStatement(" UPDATE user_table\n" +
+                    "SET email   = ?,\n" +
+                    "    age     = ?,\n" +
+                    "    country = ?,\n" +
+                    "    file_path = ?\n" +
+                    "\n" +
+                    "WHERE id = ?;\n");
+            statement.setString(1, email);
+            statement.setString(2, age);
+            statement.setString(3, country);
+            statement.setString(4, fileName);
+            statement.setInt(5, curUser.getId());
+            statement.executeUpdate();
+            statement.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }

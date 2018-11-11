@@ -6,7 +6,7 @@ body{
   background-size: cover;
 }
 
-.profilePic {
+.img-fluid {
 	text-align: right;
 	padding: 40px;
 	float: left;

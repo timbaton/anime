@@ -40,6 +40,7 @@ public class ProfileServlet extends HttpServlet {
 
             root.put("form_url", request.getRequestURI());
             root.put("logged", currentUser!=null);
+            root.put("user", currentUser);
             root.put("posts", posts);
             try {
                 tmpl.process(root, response.getWriter());
