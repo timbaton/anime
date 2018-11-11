@@ -24,7 +24,7 @@ public class NewPostServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         User curUser = userService.getCurrentUser(request);
         String text = request.getParameter("text");
-        postService.addPost(new Post(text, curUser.getId()));
+        postService.addPost(new Post(text, curUser));
 
         response.sendRedirect("/profile");
     }

@@ -11,7 +11,8 @@
 <meta charset="utf-8">
 
 <body>
-<!--<#include "nav_bar.jsp">-->
+<#include "nav_bar.jsp">
+
 <form>
     <div class="containerForProfile">
         <img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">

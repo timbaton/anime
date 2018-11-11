@@ -13,23 +13,7 @@
 </head>
 <body>
 <link rel="stylesheet" href="../../front/styles/navBarStyles.css" type="text/css"/>
-// тут ты делаешь инклуд навбара
-<!--<ul id="menu-bar">
-    <li class="logo">AnimeIsLife</li>
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Menu</a>
-        <ul>
-            <li><a href="profile.ftl">Profile</a></li>
-            <li><a href="edit.html">Edit</a></li>
-            <li><a href="favourite.html">Favourite</a></li>
-            <li><a href="later.html">Later</a></li>
-            <li><a href="categories.html">Categories</a></li>
-            <li><a href="search.html">Search</a></li>
-        </ul>
-    </li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact Us</a></li>
-</ul>-->
+<#include "nav_bar.jsp">
 
 
 <form class="form-container">
@@ -44,34 +28,28 @@
 <form>
     <div class="containerForProfile">
         <img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">
-        <div class="editButton-place"><a href="edit.html" class="buttonEdit">Edit</a></div>
+        <div class="editButton-place"><a href="edit.ftl" class="buttonEdit">Edit</a></div>
     </div>
 </form>
 
-<div class="container post">
-    <div class="row">
+<div class="container post" align="center">
+
 <#if posts?has_content>
     <#list posts as item>
-    <div class="posts_place">
-        <h1>Title</h1>
-        by Henry153783
-        6 h ago
-        <h5>
-            ${item.getText()}
-        </h5>
-
-        <div style="float: right">
-            <span class="fa fa-thumbs-up"></span> 4
-            <span class="fa fa-thumbs-down"></span> 0
-            <span class="fa fa-comments"></span> 1
+        <div class="row">
+            <div class="posts_place">
+                <h1 align="center">Title</h1>
+                by ${item.getAuthor()}
+                <br>
+                ${item.getDate_create()}
+                <h5>
+                    ${item.getText()}
+                </h5>
+            </div>
         </div>
-
-    </div>
     </#list>
 </#if>
-    </div>
 </div>
-
 
 
 </body>

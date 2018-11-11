@@ -17,14 +17,6 @@ public class User {
         this.id = id;
     }
 
-    public User(String login, String password, String email, String age, String country) {
-        this.login = login;
-        this.password = password;
-        this.email = email;
-        this.age = age;
-        this.country = country;
-    }
-
     public String getPassword() {
         return password;
     }

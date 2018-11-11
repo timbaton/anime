@@ -13,7 +13,7 @@
 
 <link rel="stylesheet" href="../../front/styles/navBarStyles.css" type="text/css"/>
 
-// тут ты делаешь инклуд навбара
+<#include "nav_bar.jsp">
 
 <table class="table">
     <tr>

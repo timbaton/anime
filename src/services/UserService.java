@@ -7,6 +7,8 @@ import enteties.User;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class UserService {
 
@@ -19,14 +21,21 @@ public class UserService {
     }
 
     public User authenticate(HttpServletRequest request) {
+        Pattern loginPattern = Pattern.compile("^(?=.*[A-Za-z0-9]$)[A-Za-z][A-Za-z\\d.-]{0,19}$");
+        Pattern passwordPattern = Pattern.compile("^(?=.*[0-9])(?=.*[a-z])[0-9a-zA-Z]{4,}$");
+
         String username = request.getParameter("login");
-        if (username != null) {
+        Matcher loginMatcher = loginPattern.matcher(username);
+
+        if (loginMatcher.matches()) {
             User user = userDAO.getByUsername(username);
             if (user == null) {
                 return null;
             }
             String password = request.getParameter("password");
-            if (password.equals(user.getPassword())) {
+            Matcher passwordMatcher = passwordPattern.matcher(password);
+
+            if (password.equals(user.getPassword()) && passwordMatcher.matches()) {
                 return user;
             } else {
                 return null;
@@ -41,6 +50,30 @@ public class UserService {
     }
 
     public User registerUser(String login, String password, String email, String age, String country) {
-        return userDAO.addUser(login, password, email, age, country);
+        Pattern loginPattern = Pattern.compile("^(?=.*[A-Za-z0-9]$)[A-Za-z][A-Za-z\\d.-]{0,19}$");
+        Pattern passwordPattern = Pattern.compile("^(?=.*[0-9])(?=.*[a-z])[0-9a-zA-Z]{4,}$");
+        Pattern mailPattern = Pattern.compile("^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$");
+        Pattern agePattern = Pattern.compile("^[1-9]{1,4}$");
+        Pattern countryPattern = Pattern.compile("[A-Za-z]+");
+
+        Matcher loginMatcher = loginPattern.matcher(login);
+        Matcher passwordMatcher = passwordPattern.matcher(password);
+        Matcher mailMatcher = mailPattern.matcher(email);
+        Matcher ageMatcher = agePattern.matcher(age);
+        Matcher countryMatcher = countryPattern.matcher(country);
+
+        if (loginMatcher.matches() && passwordMatcher.matches() && mailMatcher.matches()
+                && ageMatcher.matches() && countryMatcher.matches()) {
+            return userDAO.addUser(login, password, email, age, country);
+        } else return null;
+    }
+
+    public User getUserById(int user_id) {
+        return userDAO.getById(user_id);
+    }
+
+    public void logout(HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        session.setAttribute("current_user", null);
     }
 }

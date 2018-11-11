@@ -17,6 +17,6 @@ public class PostService {
     }
 
     public ArrayList<Post> getUserPost(User currentUser) {
-        return postDAO.getAllUsersPost(currentUser.getLogin());
+        return postDAO.getAllUsersPost(currentUser.getId());
     }
 }

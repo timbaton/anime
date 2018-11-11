@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -22,6 +23,8 @@ public class RegistrationServlet extends HttpServlet {
     private UserService userService = new UserService();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        PrintWriter out = response.getWriter();
+
         User curUser = userService.getCurrentUser(request);
         String login = request.getParameter("login");
         String password = request.getParameter("password");
@@ -32,15 +35,14 @@ public class RegistrationServlet extends HttpServlet {
         if (curUser != null) {
             response.sendRedirect("/profile");
         } else {
-            Pattern pattern = Pattern.compile("^(?=.*[A-Za-z0-9]$)[A-Za-z][A-Za-z\\d.-]{0,19}$");
-            Matcher matcher = pattern.matcher(login);
-            if (matcher.matches()) {
-                curUser = userService.registerUser(login, password, email, age, country);
+            curUser = userService.registerUser(login, password, email, age, country);
+            if (curUser != null) {
                 userService.authorize(curUser, request);
                 response.sendRedirect("/profile");
             } else {
                 response.sendRedirect("/registration");
             }
+
         }
     }
 

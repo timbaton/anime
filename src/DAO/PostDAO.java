@@ -6,7 +6,7 @@ import enteties.Post;
 import java.util.ArrayList;
 
 public interface PostDAO {
-    ArrayList<Post> getAllUsersPost(String username);
+    ArrayList<Post> getAllUsersPost(int user_id);
 
     boolean addPost(Post post);
 }

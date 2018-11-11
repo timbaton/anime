@@ -1,21 +1,32 @@
 package enteties;
 
+import services.UserService;
+
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.util.Locale;
+import java.util.TimeZone;
 
 public class Post {
+    static UserService userService = new UserService();
     int id;
     String text;
-    int user_id;
+    User user;
     Timestamp date_create;
 
-    public Post(String text, int user_id) {
+    public Post(String text, User user) {
         this.text = text;
-        this.user_id = user_id;
+        this.user = user;
     }
 
     public Post(String text, int user_id, Timestamp date_create) {
+        this(text, userService.getUserById(user_id), date_create);
+    }
+
+    public Post(String text, User user, Timestamp date_create) {
         this.text = text;
-        this.user_id = user_id;
+        this.user = user;
         this.date_create = date_create;
     }
 
@@ -35,19 +46,27 @@ public class Post {
         this.text = text;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public User getUser() {
+        return user;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setUser_id(User user) {
+        this.user = user;
     }
 
-    public Timestamp getDate_create() {
-        return date_create;
+    public String getDate_create() {
+        return new SimpleDateFormat("yyyy.MM.dd - HH:mm").format(date_create);
     }
 
     public void setDate_create(Timestamp date_create) {
         this.date_create = date_create;
+    }
+
+    public String getAuthor() {
+        return user.getLogin();
+    }
+
+    public int getUserId() {
+        return user.getId();
     }
 }

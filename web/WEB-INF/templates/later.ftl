@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<!--<#include "nav_bar.jsp">-->
+<#include "nav_bar.jsp">
 <!--later и favourite одинаковые html, но там должны быть разные списки аниме-->
 
 <ul id="menu-bar">
@@ -21,8 +21,8 @@
             <li><a href="profile.ftl">Profile</a></li>
             <li><a href="edit.ftl">Edit</a></li>
             <li><a href="favourite.ftl">Favourite</a></li>
-            <li><a href="later.html">Later</a></li>
-            <li><a href="categories.html">Categories</a></li>
+            <li><a href="later.ftl">Later</a></li>
+            <li><a href="categories.ftl">Categories</a></li>
             <li><a href="search.html">Search</a></li>
         </ul>
     </li>

@@ -24,7 +24,7 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
         if (user != null) {
             userService.authorize(user, request);
             response.sendRedirect("/profile");
-        } else response.sendRedirect("/register");
+        } else response.sendRedirect("/registration");
 
     }
 

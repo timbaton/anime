@@ -14,11 +14,11 @@ public class PostDAOImp implements PostDAO {
 
 
     @Override
-    public ArrayList<Post> getAllUsersPost(String username) {
+    public ArrayList<Post> getAllUsersPost(int user_id) {
         ArrayList<Post> newsList = new ArrayList<>();
         try {
-            PreparedStatement st = connection.prepareStatement("select * from user_table as ut inner join post as po ON po.user_id = ut.id where ut.id = 7");
-
+            PreparedStatement st = connection.prepareStatement("select * from user_table as ut inner join post as po ON po.user_id = ut.id where ut.id = ?");
+            st.setInt(1, user_id);
             ResultSet rs = st.executeQuery();
             while (rs.next()) {
                 newsList.add(new Post(rs.getString("text"), rs.getInt("user_id"), rs.getTimestamp("date_create")));
@@ -37,7 +37,7 @@ public class PostDAOImp implements PostDAO {
         try {
             PreparedStatement statement = connection.prepareStatement("INSERT INTO post  (text, user_id, date_create) VALUES (?, ?, ?)");
             statement.setString(1, post.getText());
-            statement.setInt(2, post.getUser_id());
+            statement.setInt(2, post.getUserId());
             statement.setTimestamp(3, date);
 
             statement.executeUpdate();

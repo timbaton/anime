@@ -10,7 +10,8 @@
 </head>
 <meta charset="utf-8">
 <body>
-<!--<#include "nav_bar.jsp">-->
+<#include "nav_bar.jsp">
+
 <link rel="stylesheet" href="../../front/styles/navBarStyles.css" type="text/css"/>
 <ul id="menu-bar">
     <li class="logo">AnimeIsLife</li>
@@ -33,11 +34,11 @@
 <div>
     <form class="form-container">
         <div class="form-title">Email</div>
-        <input class="form-field" id= "emailEdit" type="text" name="emailEdit" required="required"/><br />
+        <input class="form-field" id="emailEdit" type="text" name="emailEdit" required="required"/><br/>
         <div class="form-title">Age</div>
-        <input class="form-field" id= "ageEdit" type="text" name="ageEdit" /><br />
+        <input class="form-field" id="ageEdit" type="text" name="ageEdit"/><br/>
         <div class="form-title">Country</div>
-        <input class="form-field" id= "countryEdit" type="text" name="countryEdit" /><br />
+        <input class="form-field" id="countryEdit" type="text" name="countryEdit"/><br/>
     </form>
 </div>
 </body>

@@ -25,7 +25,7 @@
         <div class="button-enter-place">
             <a class="button-enter" onclick="show('block')">Enter</a></div>
         <div class="button-register-place">
-            <a href="register" class="button-register">Register</a>
+            <a href="/registration" class="button-register">Register</a>
         </div>
     </div>
 </form>
