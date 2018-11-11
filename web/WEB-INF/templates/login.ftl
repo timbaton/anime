@@ -41,7 +41,7 @@
         <div class="form-titleLogin">Password</div>
         <input class="form-fieldLogin" id="password" type="text" name="password" required="required"/><br>
         <div class="check-box">
-            <input name="Remember" type="checkbox"><label class="form-titleLogin">Remember me</label>
+            <input name="remember" type="checkbox"><label class="form-titleLogin">Remember me</label>
         </div>
         <div class="submit-container">
             <input class="submit-button" type="submit">

@@ -7,49 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb01ba0-cd0d-4809-af4e-1c18a697cb73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/servlets/ExitServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/DAO/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/enteties/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/enteties/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/classes/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/categories.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/edit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/edit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/favourite.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/favourite.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/firstpage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/firstpage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/later.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/nav_bar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/nav_bar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/profile.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Anime/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anime/DAO/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Anime/enteties/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anime/enteties/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Anime/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anime/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Anime/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anime/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/PostDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/PostDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/imp/PostDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/imp/PostDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/imp/UserDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/imp/UserDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enteties/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enteties/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enteties/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enteties/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Anime_war_exploded/WEB-INF/templates/firstpage.ftl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/NewPostServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/NewPostServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/ProfileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/ProfileServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlets/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/RegistrationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/categories.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/edit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/edit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/favourite.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/favourite.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/later.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/later.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/nav_bar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/nav_bar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/newPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/newPost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/profile.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/registration.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/login.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,11 +113,11 @@
         <counts>
           <entry key="class" value="9" />
           <entry key="css" value="31" />
-          <entry key="ftl" value="39" />
+          <entry key="ftl" value="41" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="30" />
           <entry key="iml" value="3" />
-          <entry key="java" value="174" />
+          <entry key="java" value="181" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="6" />
           <entry key="pg_write_server_files" value="1" />
@@ -174,11 +136,11 @@
           <entry key="CLASS" value="9" />
           <entry key="CSS" value="31" />
           <entry key="Database Element" value="22" />
-          <entry key="FTL" value="39" />
+          <entry key="FTL" value="41" />
           <entry key="HTML" value="30" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="174" />
+          <entry key="JAVA" value="181" />
           <entry key="JSP" value="6" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SQL" value="6" />
@@ -191,9 +153,9 @@
           <entry key="cell" value="1" />
           <entry key="css" value="94" />
           <entry key="dummy" value="29" />
-          <entry key="ftl" value="437" />
+          <entry key="ftl" value="445" />
           <entry key="html" value="167" />
-          <entry key="java" value="3578" />
+          <entry key="java" value="3719" />
           <entry key="jsp" value="87" />
           <entry key="sql" value="896" />
           <entry key="txt" value="81" />
@@ -203,9 +165,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="94" />
-          <entry key="FTL" value="437" />
+          <entry key="FTL" value="445" />
           <entry key="HTML" value="167" />
-          <entry key="JAVA" value="3577" />
+          <entry key="JAVA" value="3718" />
           <entry key="JSP" value="87" />
           <entry key="PLAIN_TEXT" value="110" />
           <entry key="SQL" value="29" />
@@ -223,11 +185,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlets/RegistrationServlet.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/services/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="531">
+              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlets/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlets/ProfileServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAO/imp/PostDAOImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,48 +225,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/UserService.java">
+        <entry file="file://$PROJECT_DIR$/src/enteties/Post.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="53" column="93" lean-forward="true" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlets/NewPostServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/servlets/ProfileServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/enteties/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="313">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
-                <element signature="e#530#531#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1241#1242#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -286,8 +244,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlets/ExitServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="195">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -318,7 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/front/styles/registerStyles.css" />
         <option value="$PROJECT_DIR$/web/front/styles/searchStyles.css" />
         <option value="$PROJECT_DIR$/web/front/styles/categoriesStyles.css" />
         <option value="$PROJECT_DIR$/web/front/styles/favouriteStyles.css" />
@@ -344,7 +301,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/08eb9994-23c8-4cca-af6b-244fa53a7d0c/console_1.sql" />
         <option value="$PROJECT_DIR$/src/DAO/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/DAO/imp/UserDAOImp.java" />
-        <option value="$PROJECT_DIR$/src/servlets/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/DAO/PostDAO.java" />
         <option value="$PROJECT_DIR$/src/services/PostService.java" />
         <option value="$PROJECT_DIR$/src/enteties/User.java" />
@@ -365,10 +321,12 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/templates/registration.ftl" />
         <option value="$PROJECT_DIR$/web/WEB-INF/templates/nav_bar.jsp" />
         <option value="$PROJECT_DIR$/src/servlets/RegistrationServlet.java" />
-        <option value="$PROJECT_DIR$/src/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/servlets/NewPostServlet.java" />
         <option value="$PROJECT_DIR$/src/servlets/ExitServlet.java" />
         <option value="$PROJECT_DIR$/src/servlets/ProfileServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/templates/login.ftl" />
+        <option value="$PROJECT_DIR$/src/servlets/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/services/UserService.java" />
       </list>
     </option>
   </component>
@@ -522,6 +480,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="PostgreSQL" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -725,7 +684,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48073000" />
+    <option name="totallyTimeSpent" value="49728000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,6 +697,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -747,8 +707,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.13855422" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5036145" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41686746" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38915664" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24457832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -778,18 +738,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/enteties/Post.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DAO/imp/PostDAOImp.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/servlets/NewPostServlet.java</url>
           <line>26</line>
           <properties />
@@ -797,19 +745,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/services/UserService.java</url>
-          <line>64</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/servlets/ExitServlet.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/services/UserService.java</url>
-          <line>29</line>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -952,40 +894,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/imp/PostDAOImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://08eb9994-23c8-4cca-af6b-244fa53a7d0c/database/animedb/schema/public/table/post">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/enteties/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,20 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/later.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/firstpage.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/edit.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1111,26 +1009,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/RegistrationServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/enteties/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="300">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#530#531#0" expanded="true" />
@@ -1138,17 +1019,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/UserService.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/login.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="53" column="93" lean-forward="true" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
+        <state relative-caret-position="401">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/later.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1159,17 +1040,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/RegistrationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enteties/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlets/ExitServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="195">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlets/ProfileServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="210">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/imp/PostDAOImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
         </state>
       </provider>
     </entry>

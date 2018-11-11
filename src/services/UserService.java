@@ -5,7 +5,9 @@ import DAO.UserDAO;
 import DAO.imp.UserDAOImp;
 import enteties.User;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,16 +17,35 @@ public class UserService {
     private UserDAO userDAO = new UserDAOImp();
 
     public User getCurrentUser(HttpServletRequest request) {
+        checkLoggedCookie(request);
+
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("current_user");
         return user;
     }
 
-    public User authenticate(HttpServletRequest request) {
+    private void checkLoggedCookie(HttpServletRequest request) {
+        Cookie[] cookies = request.getCookies();
+        String userName = "";
+        if (cookies != null) {
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals("user")) {
+                    userName = cookie.getValue();
+                    User user = userDAO.getByUsername(userName);
+                    authorize(user, request);
+                }
+            }
+        }
+    }
+
+    public User authenticate(HttpServletRequest request, HttpServletResponse response) {
         Pattern loginPattern = Pattern.compile("^(?=.*[A-Za-z0-9]$)[A-Za-z][A-Za-z\\d.-]{0,19}$");
         Pattern passwordPattern = Pattern.compile("^(?=.*[0-9])(?=.*[a-z])[0-9a-zA-Z]{4,}$");
 
         String username = request.getParameter("login");
+        String password = request.getParameter("password");
+        String remember = request.getParameter("remember");
+        Matcher passwordMatcher = passwordPattern.matcher(password);
         Matcher loginMatcher = loginPattern.matcher(username);
 
         if (loginMatcher.matches()) {
@@ -32,16 +53,23 @@ public class UserService {
             if (user == null) {
                 return null;
             }
-            String password = request.getParameter("password");
-            Matcher passwordMatcher = passwordPattern.matcher(password);
 
             if (password.equals(user.getPassword()) && passwordMatcher.matches()) {
+                if(remember!=null) {
+                    saveUserCookie(response, username);
+                }
                 return user;
             } else {
                 return null;
             }
         }
         return null;
+    }
+
+    private void saveUserCookie(HttpServletResponse response, String username) {
+        Cookie cookie = new Cookie("user", username);
+        cookie.setMaxAge(400);
+        response.addCookie(cookie);
     }
 
     public void authorize(User current_user, HttpServletRequest request) {
