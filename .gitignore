@@ -23,6 +23,8 @@ effective-pom.xml
 effective-settings.xml
 /*/.gwt/
 .cache
+web/front/src/avatars/*
+web/front/src/*
 .idea/
 *.iml
 *.log
