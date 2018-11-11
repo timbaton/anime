@@ -28,7 +28,16 @@
         <servlet-name>Edit</servlet-name>
         <servlet-class>servlets.EditServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AllTopics</servlet-name>
+        <servlet-class>servlets.UserTopicsServlet</servlet-class>
+    </servlet>
 
+
+    <servlet-mapping>
+        <servlet-name>AllTopics</servlet-name>
+        <url-pattern>/all</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Edit</servlet-name>
         <url-pattern>/edit</url-pattern>
