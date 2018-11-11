@@ -68,7 +68,7 @@ public class UserService {
 
     private void saveUserCookie(HttpServletResponse response, String username) {
         Cookie cookie = new Cookie("user", username);
-        cookie.setMaxAge(400);
+        cookie.setMaxAge(60);
         response.addCookie(cookie);
     }
 
@@ -100,8 +100,18 @@ public class UserService {
         return userDAO.getById(user_id);
     }
 
-    public void logout(HttpServletRequest request) {
+    public void logout(HttpServletRequest request, HttpServletResponse response) {
         HttpSession session = request.getSession();
         session.setAttribute("current_user", null);
+
+        //delete cookies
+        Cookie[] cookies = request.getCookies();
+        if (cookies != null)
+            for (Cookie cookie : cookies) {
+                cookie.setValue("");
+                cookie.setPath("/");
+                cookie.setMaxAge(0);
+                response.addCookie(cookie);
+            }
     }
 }

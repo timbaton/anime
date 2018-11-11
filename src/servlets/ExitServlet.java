@@ -16,7 +16,7 @@ public class ExitServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        userService.logout(request);
+        userService.logout(request, response);
         response.sendRedirect("/login");
     }
 }
