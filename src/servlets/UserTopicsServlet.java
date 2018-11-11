@@ -29,18 +29,22 @@ public class UserTopicsServlet extends HttpServlet {
         response.setContentType("text/html");
         Configuration cfg = ConfigSingleton.getConfig(getServletContext());
         Template tmpl = cfg.getTemplate("topics.ftl");
-        HashMap<String, Object> root = new HashMap<>();
-        User currentUser = userService.getCurrentUser(request);
-        ArrayList<Post> posts = postService.getUserPost(currentUser);
 
-        root.put("form_url", request.getRequestURI());
-        root.put("logged", currentUser != null);
-        root.put("user", currentUser);
-        root.put("posts", posts);
-        try {
-            tmpl.process(root, response.getWriter());
-        } catch (TemplateException e) {
-            e.printStackTrace();
+        if (userService.getCurrentUser(request) != null) {
+            HashMap<String, Object> root = new HashMap<>();
+            User currentUser = userService.getCurrentUser(request);
+            ArrayList<Post> posts = postService.getUserPost(currentUser);
+
+            root.put("form_url", request.getRequestURI());
+            root.put("logged", currentUser != null);
+            root.put("user", currentUser);
+            root.put("posts", posts);
+            try {
+                tmpl.process(root, response.getWriter());
+            } catch (TemplateException e) {
+                e.printStackTrace();
+            }
         }
+        else response.sendRedirect("/login");
     }
 }

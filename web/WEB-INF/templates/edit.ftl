@@ -11,7 +11,7 @@
 <meta charset="utf-8">
 
 <body>
-<#include "nav_bar.jsp">
+<#include "nav_bar.ftl">
 
 <form class="form-container" method="post" enctype="multipart/form-data">
 

@@ -116,21 +116,21 @@ div#gray {
    color: #fff;
    }
 
-.containerForButtons {
-	padding: 10px;
-	width: 20%;
-	height: 40%;
-	margin-top: 10%;
-	margin-left:10%;
-	border: 4px inset black;
-	text-align: center;
-	position: fixed;
-	float: left;
-	background: #b0bec5;
-	background-color: rgba(176, 190, 197, 0.75);
-    filter: alpha(Opacity=70);
-	border-radius: 30px;
-}
+/*.containerForButtons {*/
+	/*padding: 10px;*/
+	/*width: 20%;*/
+	/*height: 60%;*/
+	/*margin-top: 10%;*/
+	/*margin-left:10%;*/
+	/*border: 4px inset black;*/
+	/*text-align: center;*/
+	/*position: fixed;*/
+	/*float: left;*/
+	/*background: #b0bec5;*/
+	/*background-color: rgba(176, 190, 197, 0.75);*/
+    /*filter: alpha(Opacity=70);*/
+	/*border-radius: 30px;*/
+/*}*/
 
 .ribbon {
    width: 90%;

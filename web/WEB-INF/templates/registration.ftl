@@ -11,13 +11,7 @@
 <meta charset="utf-8">
 
 <body>
-<#include "nav_bar.jsp">
-
-<form>
-    <div class="containerForProfile">
-        <img src="../../front/src/profilePic.PNG" id="profilePic" class="profilePic">
-    </div>
-</form>
+<#include "nav_bar.ftl">
 
 <form class="form-container" method="post">
     <div class="form-title"><h2>Fill in</h2></div>

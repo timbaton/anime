@@ -43,7 +43,9 @@ public class RegistrationServlet extends HttpServlet {
         response.setContentType("text/html");
         Configuration cfg = ConfigSingleton.getConfig(getServletContext());
         Template tmpl = cfg.getTemplate("registration.ftl");
+
         HashMap<String, Object> root = new HashMap<>();
+        root.put("logged", userService.getCurrentUser(request)!=null);
         try {
             tmpl.process(root, response.getWriter());
         } catch (TemplateException e) {

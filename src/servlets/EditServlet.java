@@ -27,7 +27,6 @@ public class EditServlet extends HttpServlet {
         String country = request.getParameter("country");
 
 
-
         Part filePart = request.getPart("file");
         userService.updateUserPicture(filePart.getInputStream(), curUser);
         userService.editUser(curUser, email, age, country);
@@ -39,12 +38,19 @@ public class EditServlet extends HttpServlet {
         response.setContentType("text/html");
         Configuration cfg = ConfigSingleton.getConfig(getServletContext());
         Template tmpl = cfg.getTemplate("edit.ftl");
+
         HashMap<String, Object> root = new HashMap<>();
-        root.put("user", userService.getCurrentUser(request));
-        try {
-            tmpl.process(root, response.getWriter());
-        } catch (TemplateException e) {
-            e.printStackTrace();
+        User currentUser = userService.getCurrentUser(request);
+        if (currentUser != null) {
+            root.put("user", currentUser);
+            root.put("logged", true);
+            try {
+                tmpl.process(root, response.getWriter());
+            } catch (TemplateException e) {
+                e.printStackTrace();
+            }
+        } else {
+            response.sendRedirect("/login");
         }
     }
 }

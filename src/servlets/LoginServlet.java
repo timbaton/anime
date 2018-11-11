@@ -30,13 +30,15 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         response.setContentType("text/html");
-        if (userService.getCurrentUser(request) != null) {
+        User currentUser = userService.getCurrentUser(request);
+        if (currentUser != null) {
             response.sendRedirect("/profile");
         }
 
         Configuration cfg = ConfigSingleton.getConfig(getServletContext());
         Template tmpl = cfg.getTemplate("login.ftl");
         HashMap<String, Object> root = new HashMap<>();
+        root.put("logged", currentUser != null);
         try {
             tmpl.process(root, response.getWriter());
         } catch (TemplateException e) {

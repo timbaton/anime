@@ -27,6 +27,9 @@
         <div class="button-register-place">
             <a href="/registration" class="button-register">Register</a>
         </div>
+        <div style="margin-top: 170px" class="button-register-place">
+            <a href="/all" class="button-register">Guest</a>
+        </div>
     </div>
 </form>
 

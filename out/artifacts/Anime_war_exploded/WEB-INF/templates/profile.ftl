@@ -13,7 +13,7 @@
 </head>
 <body>
 <link rel="stylesheet" href="../../front/styles/navBarStyles.css" type="text/css"/>
-<#include "nav_bar.jsp">
+<#include "nav_bar.ftl">
 
 <#--<div class="form-container"-->
 <#--<div class="row">-->

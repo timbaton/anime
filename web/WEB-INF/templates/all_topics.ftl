@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <#include "nav_bar.jsp">
+    <#include "nav_bar.ftl">
 <#if posts?has_content>
     <#list posts as item>
         <div class="animeBlock">

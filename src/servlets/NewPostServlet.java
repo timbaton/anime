@@ -32,12 +32,19 @@ public class NewPostServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         Configuration cfg = ConfigSingleton.getConfig(getServletContext());
-        Template tmpl = cfg.getTemplate("newPost.html");
+        Template tmpl = cfg.getTemplate("newPost.ftl");
+
         HashMap<String, Object> root = new HashMap<>();
-        try {
-            tmpl.process(root, response.getWriter());
-        } catch (TemplateException e) {
-            e.printStackTrace();
+        User currentUser = userService.getCurrentUser(request);
+        if (currentUser != null) {
+            root.put("logged", true);
+            try {
+                tmpl.process(root, response.getWriter());
+            } catch (TemplateException e) {
+                e.printStackTrace();
+            }
+        } else {
+            response.sendRedirect("/login");
         }
     }
 }
