@@ -9,6 +9,12 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.sql.SQLException;
+import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -55,7 +61,7 @@ public class UserService {
             }
 
             if (password.equals(user.getPassword()) && passwordMatcher.matches()) {
-                if(remember!=null) {
+                if (remember != null) {
                     saveUserCookie(response, username);
                 }
                 return user;
@@ -115,8 +121,34 @@ public class UserService {
             }
     }
 
-    public User editUser(User curUser, String email, String age, String country, String fileName) {
-        userDAO.editUser(curUser, email, age, country, fileName);
+    public User editUser(User curUser, String email, String age, String country) {
+        email = email.equals("") ? curUser.getEmail() : email;
+        age = age.equals("") ? curUser.getAge() : age;
+        country = country.equals("") ? curUser.getCountry() : country;
+
+        userDAO.editUser(curUser, email, age, country);
         return null;
+    }
+
+    public boolean updateUserPicture(InputStream inputStream, User user) throws IOException {
+        String root = "/Users/timurbadretdinov/IdeaProjects/Anime/web/front/src/avatars/";
+        String pathname = "" + new Date() + ".jpg";
+        File file = new File(root + pathname);
+        if (!file.exists()) {
+            file.createNewFile();
+        }
+        FileOutputStream output = new FileOutputStream(file, false);
+
+        byte[] bytes = new byte[512];
+
+        int count = inputStream.read(bytes);
+        while (count != -1) {
+            output.write(bytes);
+            count = inputStream.read(bytes);
+        }
+        inputStream.close();
+        output.close();
+
+        return userDAO.updateUserPicture(pathname, user);
     }
 }

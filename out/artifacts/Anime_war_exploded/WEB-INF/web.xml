@@ -29,7 +29,6 @@
         <servlet-class>servlets.EditServlet</servlet-class>
     </servlet>
 
-
     <servlet-mapping>
         <servlet-name>Edit</servlet-name>
         <url-pattern>/edit</url-pattern>

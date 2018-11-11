@@ -9,5 +9,7 @@ public interface UserDAO {
 
     User addUser(String login, String password, String email, String age, String country);
 
-    void editUser(User curUser, String email, String age, String country, String fileName);
+    void editUser(User curUser, String email, String age, String country);
+
+    boolean updateUserPicture(String pathname, User user);
 }

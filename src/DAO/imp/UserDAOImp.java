@@ -24,7 +24,8 @@ public class UserDAOImp implements UserDAO {
             String age = rs.getString("age");
             String country = rs.getString("country");
             int id = rs.getInt("id");
-            return new User(login, password, email, age, country, id);
+            String avatar = rs.getString("file_path");
+            return new User(login, password, email, age, country, id, avatar);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -43,8 +44,9 @@ public class UserDAOImp implements UserDAO {
             String email = rs.getString("email");
             String age = rs.getString("age");
             String country = rs.getString("country");
+            String avatar = rs.getString("file_path");
             int id = rs.getInt("id");
-            return new User(login, password, email, age, country, id);
+            return new User(login, password, email, age, country, id, avatar);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -71,24 +73,39 @@ public class UserDAOImp implements UserDAO {
     }
 
     @Override
-    public void editUser(User curUser, String email, String age, String country, String fileName) {
+    public void editUser(User curUser, String email, String age, String country) {
         try {
             PreparedStatement statement = connection.prepareStatement(" UPDATE user_table\n" +
                     "SET email   = ?,\n" +
                     "    age     = ?,\n" +
                     "    country = ?,\n" +
-                    "    file_path = ?\n" +
                     "\n" +
                     "WHERE id = ?;\n");
             statement.setString(1, email);
             statement.setString(2, age);
             statement.setString(3, country);
-            statement.setString(4, fileName);
-            statement.setInt(5, curUser.getId());
+            statement.setInt(4, curUser.getId());
             statement.executeUpdate();
             statement.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public boolean updateUserPicture(String pathname, User user) {
+        try {
+            PreparedStatement statement = connection.prepareStatement(" UPDATE user_table\n" +
+                    "SET file_path = ?\n" +
+                    "\n" +
+                    "WHERE id = ?;\n");
+            statement.setString(1, pathname);
+            statement.setInt(2, user.getId());
+            statement.executeUpdate();
+            statement.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return true;
     }
 }

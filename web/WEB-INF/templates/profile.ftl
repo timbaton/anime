@@ -15,21 +15,48 @@
 <link rel="stylesheet" href="../../front/styles/navBarStyles.css" type="text/css"/>
 <#include "nav_bar.jsp">
 
+<#--<div class="form-container"-->
+<#--<div class="row">-->
+    <#--<div class="class=" col-md-4>-->
+        <#--<div class="form-title">Email</div>-->
+        <#--<h4 class="form-field" id="email" type="text" name="email">${user.getEmail()}</h4><br/>-->
+        <#--<div class="form-title">Age</div>-->
+        <#--<h4 class="form-field" id="age" type="text" name="age">${user.getAge()} years</h4><br/>-->
+        <#--<div class="form-title">Country</div>-->
+        <#--<h4 class="form-field" id="country" type="text" name="country">${user.getCountry()}</h4><br/>-->
+    <#--</div>-->
 
-<form class="form-container">
-    <div class="form-title">Email</div>
-    <h4 class="form-field" id="email" type="text" name="email">${user.getEmail()}</h4><br/>
-    <div class="form-title">Age</div>
-    <h4 class="form-field" id="age" type="text" name="age">${user.getAge()} years</h4><br/>
-    <div class="form-title">Country</div>
-    <h4 class="form-field" id="country" type="text" name="country">${user.getCountry()}</h4><br/>
-</form>
-<a href="/newpost" class="submit-button" style="margin-left:840px">Add new post</a>
-<form>
-    <div class="containerForProfile">
-        <img src="${user.getAvatar()}" class="img-fluid" alt="Responsive image">
+
+    <#--<div class="col-md-4">-->
+        <#--<img name="avatar" src="../../front/src/avatars/${user.getAvatar()}" class="closePic" width="150" height="250">-->
+    <#--</div>-->
+<#--</div>-->
+<div class="form-container">
+    <div class="row">
+        <div class="col-md-6">
+            <form role="form" method="post">
+                <img name="avatar" src="../../front/src/avatars/${user.getAvatar()}" class="closePic" width="150" height="250">
+
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <form role="form">
+                <div class="form-title">Email</div>
+                <h4 class="form-field" id="email" type="text" name="email">${user.getEmail()}</h4><br/>
+                <div class="form-title">Age</div>
+                <h4 class="form-field" id="age" type="text" name="age">${user.getAge()} years</h4><br/>
+                <div class="form-title">Country</div>
+                <h4 class="form-field" id="country" type="text" name="country">${user.getCountry()}</h4><br/>
+            </form>
+        </div>
     </div>
-</form>
+</div>
+
+</div>
+
+<a href="/newpost" class="submit-button" style="margin-left:840px">Add new post</a>
+
 
 <div class="container post" align="center">
 
@@ -49,7 +76,5 @@
     </#list>
 </#if>
 </div>
-
-
 </body>
 </html>

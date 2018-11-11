@@ -11,13 +11,14 @@ public class User {
 
     private String avatar;
 
-    public User(String login, String password, String email, String age, String country, int id) {
+    public User(String login, String password, String email, String age, String country, int id, String avatar) {
         this.login = login;
         this.password = password;
         this.email = email;
         this.age = age;
         this.country = country;
         this.id = id;
+        this.avatar = avatar;
     }
 
     public String getPassword() {
@@ -47,7 +48,7 @@ public class User {
     public String getAvatar() {
         if (avatar != null) {
             return avatar;
-        } else return "../../../web/front/src/item1.jpg";
+        } else return "default";
     }
 
 }
