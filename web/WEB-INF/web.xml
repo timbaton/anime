@@ -29,14 +29,22 @@
         <servlet-class>servlets.EditServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>AllTopics</servlet-name>
+        <servlet-name>UserTopics</servlet-name>
         <servlet-class>servlets.UserTopicsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AllTopics</servlet-name>
+        <servlet-class>servlets.AllTopicsServlet</servlet-class>
     </servlet>
 
 
     <servlet-mapping>
         <servlet-name>AllTopics</servlet-name>
         <url-pattern>/all</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserTopics</servlet-name>
+        <url-pattern>/mytopics</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Edit</servlet-name>

@@ -47,4 +47,19 @@ public class PostDAOImp implements PostDAO {
         }
         return res;
     }
+
+    @Override
+    public ArrayList<Post> getAllPosts() {
+        ArrayList<Post> newsList = new ArrayList<>();
+        try {
+            PreparedStatement st = connection.prepareStatement("select * from post");
+            ResultSet rs = st.executeQuery();
+            while (rs.next()) {
+                newsList.add(new Post(rs.getString("text"), rs.getInt("user_id"), rs.getTimestamp("date_create")));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return newsList;
+    }
 }

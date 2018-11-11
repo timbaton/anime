@@ -48,7 +48,6 @@ public class User {
     public String getAvatar() {
         if (avatar != null) {
             return avatar;
-        } else return "default";
+        } else return "default_avatar.jpg";
     }
-
 }

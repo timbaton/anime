@@ -9,4 +9,6 @@ public interface PostDAO {
     ArrayList<Post> getAllUsersPost(int user_id);
 
     boolean addPost(Post post);
+
+    ArrayList<Post> getAllPosts();
 }

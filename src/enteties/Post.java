@@ -69,4 +69,8 @@ public class Post {
     public int getUserId() {
         return user.getId();
     }
+
+    public String getAuthorAvatar() {
+        return user.getAvatar();
+    }
 }

@@ -10,13 +10,11 @@
         <li class="logo">AnimeIsLife</li>
         <li><a href="/profile">Profile</a></li>
         <li><a href="/edit">Edit profile</a></li>
-        <li><a href="/all">My topics</a></li>
+        <li><a href="/mytopics">My topics</a></li>
         <li><a href="/newpost">Add topic</a></li>
         <li><a href="/all">Read anime</a></li>
-        <li><a href="categories.ftl">Categories</a></li>
         <li><a href="/exit">Exit</a></li>
     </ul>
-
     </body>
     </html>
 </page>
