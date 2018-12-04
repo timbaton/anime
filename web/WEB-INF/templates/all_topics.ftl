@@ -12,9 +12,14 @@
 </head>
 <body>
     <#include "nav_bar.ftl">
+<form class="form-container" method="get">
+    <input class="form-control" type="text" placeholder="Search" aria-label="Search" name="search">
+</form>
+
 <#if posts?has_content>
     <#list posts as item>
         <div class="animeBlock">
+
             <div class="animePic"><img src="../../front/src/avatars/${item.getAuthorAvatar()}" height="80" width="90">
                 <div class="animeName">${item.getDate_create()}</div>
             </div>

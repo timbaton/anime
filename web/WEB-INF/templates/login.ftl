@@ -42,7 +42,7 @@
         <div class="form-titleLogin">Login</div>
         <input class="form-fieldLogin" id="login" type="text" name="login" required="required"/><br>
         <div class="form-titleLogin">Password</div>
-        <input class="form-fieldLogin" id="password" type="text" name="password" required="required"/><br>
+        <input class="form-fieldLogin" id="password" type="password" name="password" required="required"/><br>
         <div class="check-box">
             <input name="remember" type="checkbox"><label class="form-titleLogin">Remember me</label>
         </div>

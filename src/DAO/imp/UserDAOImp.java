@@ -57,7 +57,7 @@ public class UserDAOImp implements UserDAO {
     public User addUser(String login, String password, String email, String age, String country) {
         boolean res = false;
         try {
-            PreparedStatement statement = connection.prepareStatement("INSERT INTO user_table  (login, password, email, age, country) VALUES (?, ?, ?, ?, ?)");
+            PreparedStatement statement = connection.prepareStatement("INSERT INTO \"user_table\"  (login, password, email, age, country) VALUES (?, ?, ?, ?, ?)");
             statement.setString(1, login);
             statement.setString(2, password);
             statement.setString(3, email);

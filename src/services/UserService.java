@@ -99,7 +99,8 @@ public class UserService {
         if (loginMatcher.matches() && passwordMatcher.matches() && mailMatcher.matches()
                 && ageMatcher.matches() && countryMatcher.matches()) {
             return userDAO.addUser(login, password, email, age, country);
-        } else return null;
+            //hello abr
+        } else return userDAO.addUser(login, password, email, age, country);
     }
 
     public User getUserById(int user_id) {

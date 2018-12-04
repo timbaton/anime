@@ -23,4 +23,6 @@ public class PostService {
     public ArrayList<Post> getAllPosts() {
         return postDAO.getAllPosts();
     }
+
+    public ArrayList<Post> getFilteredPost(String search) { return postDAO.getFilteredPosts(search);}
 }

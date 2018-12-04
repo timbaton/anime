@@ -25,7 +25,6 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
             userService.authorize(user, request);
             response.sendRedirect("/profile");
         } else response.sendRedirect("/registration");
-
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {

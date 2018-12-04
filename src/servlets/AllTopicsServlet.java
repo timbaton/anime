@@ -22,16 +22,23 @@ public class AllTopicsServlet extends HttpServlet {
     UserService userService = new UserService();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         Configuration cfg = ConfigSingleton.getConfig(getServletContext());
         Template tmpl = cfg.getTemplate("all_topics.ftl");
+
+        String search = request.getParameter("search");
+
+        ArrayList<Post> posts = postService.getAllPosts();
+        if (search != null) {
+            posts = postService.getFilteredPost(search);
+        }
+
+
         HashMap<String, Object> root = new HashMap<>();
         User currentUser = userService.getCurrentUser(request);
-        ArrayList<Post> posts = postService.getAllPosts();
 
         root.put("logged", currentUser != null);
         root.put("posts", posts);

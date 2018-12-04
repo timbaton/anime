@@ -11,4 +11,6 @@ public interface PostDAO {
     boolean addPost(Post post);
 
     ArrayList<Post> getAllPosts();
+
+    ArrayList<Post> getFilteredPosts(String search);
 }
